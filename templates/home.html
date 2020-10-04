@@ -1,5 +1,6 @@
 {% extends "base.html" %}
+{% load static %}
 {% block title %}これから{% endblock title %}
 {% block content %}
-    <h1>これから</h1>
+    <a class="lead" href="{% url 'accounts:logout' %}">Logout</a>
 {% endblock content %}

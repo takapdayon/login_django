@@ -8,3 +8,6 @@
 
 詳しくはrequirements.txtをみてー(あとsettings)
 
+あとログイン画面は以下を拝借しましたー
+https://codepen.io/braytiner/pen/wZWBqP
+
