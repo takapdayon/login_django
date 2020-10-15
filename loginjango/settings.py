@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'social_django',  # ソーシャルログイン
     'accounts',
+    'social_django',  # ソーシャルログイン
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -69,6 +70,9 @@ TEMPLATES = [
                 'social_django.context_processors.backends',
                 'social_django.context_processors.login_redirect',
             ],
+            'builtins': [
+                'bootstrap4.templatetags.bootstrap4',
+            ]
         },
     },
 ]
